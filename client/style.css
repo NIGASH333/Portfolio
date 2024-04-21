@@ -313,7 +313,7 @@ section{
     width: 90%;
 }
 .progress-line.css span{
-    width: 70%;
+    width: 80%;
 }
 .progress-line.javaScript span{
     width: 70%;
@@ -322,7 +322,10 @@ section{
     width: 65%;
 }
 .progress-line.react span{
-    width: 50%;
+    width: 60%;
+}
+.progress-line.networking span {
+    width: 70%; /* New networking progress bar with 70% width */
 }
 .progress-line span::after{
     position: absolute;
@@ -349,7 +352,10 @@ section{
     content: "65%";
 }
 .progress-line.react span::after{
-    content: "50%";
+    content: "60%";
+}
+.progress-line.networking span::after {
+    content: "70%"; /* Display "70%" for the networking progress bar */
 }
 .progress-line span::before{
     content: "";
