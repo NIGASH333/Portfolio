@@ -7,7 +7,7 @@ var typed = new Typed(".text", {
 });
 
 // Check if the screen width is less than 768 pixels
-if (screen.width < 319) {
+if (screen.width < 768) {
     // Display the pop-up message
     alert("For optimal viewing, please switch to a desktop device.");
 }
